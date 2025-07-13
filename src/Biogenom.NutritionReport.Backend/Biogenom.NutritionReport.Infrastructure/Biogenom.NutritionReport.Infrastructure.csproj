@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="DeepCloner" Version="0.10.4" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="LazyCache" Version="2.4.0" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="7.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biogenom.NutritionReport.Application\Biogenom.NutritionReport.Application.csproj" />
+    <ProjectReference Include="..\Biogenom.NutritionReport.Persistance\Biogenom.NutritionReport.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
