@@ -1,0 +1,6 @@
+@Biogenom.NutritionReport.Api_HostAddress = http://localhost:5167
+
+GET {{Biogenom.NutritionReport.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
