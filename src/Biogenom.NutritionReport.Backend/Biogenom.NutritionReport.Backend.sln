@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.NutritionReport.Domain", "Biogenom.NutritionReport.Domain\Biogenom.NutritionReport.Domain.csproj", "{F48CB80A-080E-4908-A190-F75D6E11D842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.NutritionReport.Persistence", "Biogenom.NutritionReport.Persistance\Biogenom.NutritionReport.Persistence.csproj", "{B2A80D41-22B4-42E2-A2A5-B2E37B2F00CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.NutritionReport.Application", "Biogenom.NutritionReport.Application\Biogenom.NutritionReport.Application.csproj", "{3A222A1D-F9D4-45C5-915A-C7F14B3D69C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.NutritionReport.Infrastructure", "Biogenom.NutritionReport.Infrastructure\Biogenom.NutritionReport.Infrastructure.csproj", "{0D930F85-431C-4075-9A2F-4BC63360173C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biogenom.NutritionReport.Api", "Biogenom.NutritionReport.Api\Biogenom.NutritionReport.Api.csproj", "{4E32336B-44A9-490C-813B-DD0A825C2A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48CB80A-080E-4908-A190-F75D6E11D842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48CB80A-080E-4908-A190-F75D6E11D842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48CB80A-080E-4908-A190-F75D6E11D842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48CB80A-080E-4908-A190-F75D6E11D842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A80D41-22B4-42E2-A2A5-B2E37B2F00CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A80D41-22B4-42E2-A2A5-B2E37B2F00CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A80D41-22B4-42E2-A2A5-B2E37B2F00CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A80D41-22B4-42E2-A2A5-B2E37B2F00CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A222A1D-F9D4-45C5-915A-C7F14B3D69C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A222A1D-F9D4-45C5-915A-C7F14B3D69C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A222A1D-F9D4-45C5-915A-C7F14B3D69C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A222A1D-F9D4-45C5-915A-C7F14B3D69C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D930F85-431C-4075-9A2F-4BC63360173C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D930F85-431C-4075-9A2F-4BC63360173C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D930F85-431C-4075-9A2F-4BC63360173C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D930F85-431C-4075-9A2F-4BC63360173C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E32336B-44A9-490C-813B-DD0A825C2A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E32336B-44A9-490C-813B-DD0A825C2A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E32336B-44A9-490C-813B-DD0A825C2A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E32336B-44A9-490C-813B-DD0A825C2A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
